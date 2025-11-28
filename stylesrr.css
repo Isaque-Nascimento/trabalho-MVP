@@ -1,0 +1,41 @@
+.titulo {
+  text-align: center;
+}
+
+body {
+  background: url(./img/fundo\ verde.png);
+}
+
+.descricao {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.foto {
+  max-width: 100%;
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+
+.eventos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  background: rgba(1, 205, 117, 0.5);
+  max-width: 100%;
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+
+.informacoes {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
