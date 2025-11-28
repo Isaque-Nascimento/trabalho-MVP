@@ -8,6 +8,15 @@ body {
   margin-top: 60px;
 }
 
+.login-admin {
+  background: rgba(1, 205, 117, 100);
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: black;
+  text-transform: uppercase;
+  text-align: 20px right;
+}
+
 .logo {
   text-align: center;
   width: 100;
