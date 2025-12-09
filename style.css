@@ -16,6 +16,13 @@ body {
   text-transform: uppercase;
 }
 
+.login-admin:hover {
+  background-color: transparent;
+  border: 2px solid #006539;
+  color: #006539;
+  transition: 0.5s;
+}
+
 .logo {
   text-align: center;
   width: 100;
@@ -34,6 +41,12 @@ img {
 }
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 p,
@@ -56,11 +69,18 @@ p {
 }
 
 .menu a {
-  background: rgba(1, 205, 117, 100);
+  background: #01cd75;
   padding: 15px 30px;
   border-radius: 4px;
   color: black;
   text-transform: uppercase;
+}
+
+.menu a:hover {
+  background-color: transparent;
+  border: 2px solid #006539;
+  color: #006539;
+  transition: 0.5s;
 }
 
 .conteudo {
@@ -119,6 +139,9 @@ p {
   padding: 20px;
 }
 
+.vantagens-itens:hover {
+  border-left: #01cd75 4px solid;
+}
 .vantagens-itens p {
   grid-column: 2;
 }
