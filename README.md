@@ -2,7 +2,7 @@ Alunos: Isaque do Nascimento, Fabrycio Nogueira
 
 Situação-Problema: Circuito Terê-verde
 
-Tecnologias Usadas: Html.Css.PHP e Js.
+Tecnologias Usadas: Html, Css, PHP e Js.
 
 Como executar:
 1 - Abra o site em qualquer navegador (Firefox, Chrome, Edge)
