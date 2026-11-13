@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel administrativo | Terê Verde</title>
+  <link rel="stylesheet" href="./admin.css">
+  <script>
+    if (sessionStorage.getItem('tereVerdeAdmin') !== 'true') location.replace('./login.html');
+  </script>
+</head>
+<body>
+  <header class="topo">
+    <div><strong>Terê Verde</strong><span>Painel administrativo</span></div>
+    <button id="sair" class="secundario">Sair</button>
+  </header>
+  <main>
+    <h1>Gerenciar informações</h1>
+    <p class="intro">Escolha uma página e edite os textos diretamente na prévia. As alterações serão salvas neste navegador.</p>
+    <section class="controles">
+      <label for="pagina">Página turística</label>
+      <select id="pagina"></select>
+      <div class="acoes">
+        <button id="editar">Editar informações</button>
+        <button id="salvar" disabled>Salvar alterações</button>
+      </div>
+      <p id="status" class="status" aria-live="polite">Carregando...</p>
+    </section>
+    <div class="aviso"><strong>Como editar:</strong> clique em “Editar informações” e depois clique nos textos da prévia para modificá-los. Ao terminar, clique em “Salvar alterações”.</div>
+    <iframe id="preview" title="Prévia da página turística"></iframe>
+    <p class="rodape"><a href="./home.html">Voltar ao site</a></p>
+  </main>
+  <script src="./admin.js"></script>
+</body>
+</html>
